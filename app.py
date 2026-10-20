@@ -14,7 +14,6 @@ from reportlab.platypus import (
     TableStyle,
 )
 
-# Configuración visual de la página web
 st.set_page_config(
     page_title="Cotizador Notarial de México", page_icon="⚖️", layout="wide"
 )
@@ -268,34 +267,34 @@ with st.expander("👤 Comparecientes (Llenar solo aplicables)", expanded=False)
 
 st.subheader("📜 Actos Jurídicos en la Escritura")
 
-# Acto 1
+# Acto 1 (Campos inicializados en 0.0)
 col_a1, col_m1, col_av1 = st.columns([2, 1, 1])
 acto1 = col_a1.selectbox(
     "1er Acto (Principal):", ACTOS_TRASLATIVOS + ACTOS_ACCESORIOS
 )
 monto1 = col_m1.number_input(
-    "Monto Operación ($):", min_value=0.0, value=6000000.0, step=50000.0
+    "Monto Operación ($):", min_value=0.0, value=0.0, step=50000.0
 )
 avaluo1 = col_av1.number_input(
-    "Valor Avalúo ($):", min_value=0.0, value=10660000.0, step=50000.0
+    "Valor Avalúo ($):", min_value=0.0, value=0.0, step=50000.0
 )
 
-# Cuadro ISR solo si es traslativo
+# Cuadro ISR
 c_terr, c_const, anos_ten, f_inpc = 0.0, 0.0, 1, 1.0
 if acto1 in ACTOS_TRASLATIVOS:
   with st.expander("📊 Datos para Cálculo de ISR Enajenación", expanded=True):
     ci1, ci2, ci3, ci4 = st.columns(4)
     c_terr = ci1.number_input(
-        "Costo Terreno ($):", min_value=0.0, value=1000000.0
+        "Costo Terreno ($):", min_value=0.0, value=0.0
     )
     c_const = ci2.number_input(
-        "Costo Construcción ($):", min_value=0.0, value=1000000.0
+        "Costo Construcción ($):", min_value=0.0, value=0.0
     )
     anos_ten = ci3.number_input(
-        "Años Tenencia (1-20):", min_value=1, max_value=20, value=5
+        "Años Tenencia (1-20):", min_value=1, max_value=20, value=1
     )
     f_inpc = ci4.number_input(
-        "Factor INPC:", min_value=1.0, value=1.25, step=0.01
+        "Factor INPC:", min_value=1.0, value=1.0, step=0.01
     )
 
 # Acto 2
@@ -312,14 +311,14 @@ if inc_a2:
   monto2 = col_m2.number_input(
       "Monto Operación ($):",
       min_value=0.0,
-      value=6000000.0,
+      value=0.0,
       step=50000.0,
       key="m2",
   )
   avaluo2 = col_av2.number_input(
       "Valor Avalúo ($):",
       min_value=0.0,
-      value=10660000.0,
+      value=0.0,
       step=50000.0,
       key="av2",
   )
@@ -361,13 +360,13 @@ if inc_a4:
 st.subheader("💼 Gastos Notariales y Ratificaciones")
 cg1, cg2, cg3 = st.columns(3)
 gastos_gestoria = cg1.number_input(
-    "Gastos y Gestorías ($):", min_value=0.0, value=10000.0, step=1000.0
+    "Gastos y Gestorías ($):", min_value=0.0, value=0.0, step=1000.0
 )
 firma_foranea = cg2.number_input(
-    "Gestoría Firma Foránea ($):", min_value=0.0, value=10000.0, step=1000.0
+    "Gestoría Firma Foránea ($):", min_value=0.0, value=0.0, step=1000.0
 )
 num_pagares = cg3.number_input(
-    "No. Ratificaciones (Pagarés):", min_value=0, value=2, step=1
+    "No. Ratificaciones (Pagarés):", min_value=0, value=0, step=1
 )
 
 st.divider()
@@ -472,7 +471,6 @@ if st.button("📊 Calcular Presupuesto", type="primary", use_container_width=Tr
       + tot_rat
   )
 
-  # Despliegue de métricas
   st.subheader("💵 Desglose Detallado del Presupuesto")
   m1, m2, m3 = st.columns(3)
   m1.metric("Honorarios Notariales", f"${total_hon:,.2f}")
@@ -486,7 +484,6 @@ if st.button("📊 Calcular Presupuesto", type="primary", use_container_width=Tr
 
   st.success(f"### TOTAL ESTIMADO DE LA ESCRITURA: ${total_esc:,.2f} MXN")
 
-  # Generación de PDF
   datos_pdf = {
       "estado": estado_sel,
       "comparecientes": comp_activos,
