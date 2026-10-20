@@ -1,0 +1,226 @@
+{
+  "CDMX": {
+    "nombre": "Ciudad de México",
+    "rpp_cuota_fija": 3344.0,
+    "arancel_notarial": [
+      {"lim_inf": 0.0, "lim_sup": 250000.0, "cuota_fija": 7000.0, "tasa": 0.0},
+      {"lim_inf": 250000.01, "lim_sup": 600000.0, "cuota_fija": 7000.0, "tasa": 0.015},
+      {"lim_inf": 600000.01, "lim_sup": 2000000.0, "cuota_fija": 12250.0, "tasa": 0.01},
+      {"lim_inf": 2000000.01, "lim_sup": 999999999.0, "cuota_fija": 26250.0, "tasa": 0.006}
+    ],
+    "isai": [
+      {"lim_inf": 0.0, "lim_sup": 500000.0, "cuota_fija": 0.0, "tasa": 0.0213},
+      {"lim_inf": 500000.01, "lim_sup": 1500000.0, "cuota_fija": 10650.0, "tasa": 0.0315},
+      {"lim_inf": 1500000.01, "lim_sup": 999999999.0, "cuota_fija": 42150.0, "tasa": 0.045}
+    ]
+  },
+  "EDOMEX": {
+    "nombre": "Estado de México",
+    "rpp_cuota_fija": 2800.0,
+    "arancel_notarial": [
+      {"lim_inf": 0.0, "lim_sup": 500000.0, "cuota_fija": 8500.0, "tasa": 0.012},
+      {"lim_inf": 500000.01, "lim_sup": 2000000.0, "cuota_fija": 14500.0, "tasa": 0.008},
+      {"lim_inf": 2000000.01, "lim_sup": 999999999.0, "cuota_fija": 26500.0, "tasa": 0.005}
+    ],
+    "isai": [
+      {"lim_inf": 0.0, "lim_sup": 1000000.0, "cuota_fija": 1500.0, "tasa": 0.025},
+      {"lim_inf": 1000000.01, "lim_sup": 999999999.0, "cuota_fija": 26500.0, "tasa": 0.035}
+    ],
+    "rpp_traslativo": [
+      { "lim_inf": 0.0, "lim_sup": 999999999.0, "cuota_fija": 2800.0, "tasa": 0.006 }
+    ],
+    "rpp_garantia": [
+      { "lim_inf": 0.0, "lim_sup": 6000000.0, "cuota_fija": 0.0, "tasa": 0.0059856 },
+      { "lim_inf": 6000000.01, "lim_sup": 999999999.0, "cuota_fija": 35914.0, "tasa": 0.0 }
+    ],
+    "rpp_procedimiento": [
+      { "lim_inf": 0.0, "lim_sup": 999999999.0, "cuota_fija": 2816.0, "tasa": 0.0 }
+    ],
+    "rpp_cancelacion": [
+      { "lim_inf": 0.0, "lim_sup": 999999999.0, "cuota_fija": 2800.0, "tasa": 0.0 }
+    ]
+  },
+  "JALISCO": {
+    "nombre": "Jalisco",
+    "rpp_cuota_fija": 3150.0,
+    "arancel_notarial": [
+      {"lim_inf": 0.0, "lim_sup": 400000.0, "cuota_fija": 6500.0, "tasa": 0.011},
+      {"lim_inf": 400000.01, "lim_sup": 1800000.0, "cuota_fija": 10900.0, "tasa": 0.009},
+      {"lim_inf": 1800000.01, "lim_sup": 999999999.0, "cuota_fija": 23500.0, "tasa": 0.0055}
+    ],
+    "isai": [
+      {"lim_inf": 0.0, "lim_sup": 800000.0, "cuota_fija": 1200.0, "tasa": 0.020},
+      {"lim_inf": 800000.01, "lim_sup": 999999999.0, "cuota_fija": 17200.0, "tasa": 0.030}
+    ]
+  },
+  "BAJA_CALIFORNIA": {
+    "nombre": "Baja California",
+    "rpp_cuota_fija": 2950.0,
+    "arancel_notarial": [
+      {"lim_inf": 0.0, "lim_sup": 500000.0, "cuota_fija": 7500.0, "tasa": 0.010},
+      {"lim_inf": 500000.01, "lim_sup": 2000000.0, "cuota_fija": 12500.0, "tasa": 0.008},
+      {"lim_inf": 2000000.01, "lim_sup": 999999999.0, "cuota_fija": 24500.0, "tasa": 0.005}
+    ],
+    "isai": [
+      {"lim_inf": 0.0, "lim_sup": 600000.0, "cuota_fija": 1000.0, "tasa": 0.020},
+      {"lim_inf": 600000.01, "lim_sup": 999999999.0, "cuota_fija": 13000.0, "tasa": 0.025}
+    ]
+  },
+  "SONORA": {
+    "nombre": "Sonora",
+    "rpp_cuota_fija": 2600.0,
+    "arancel_notarial": [
+      {"lim_inf": 0.0, "lim_sup": 450000.0, "cuota_fija": 6800.0, "tasa": 0.011},
+      {"lim_inf": 450000.01, "lim_sup": 1800000.0, "cuota_fija": 11750.0, "tasa": 0.0085},
+      {"lim_inf": 1800000.01, "lim_sup": 999999999.0, "cuota_fija": 23200.0, "tasa": 0.005}
+    ],
+    "isai": [
+      {"lim_inf": 0.0, "lim_sup": 500000.0, "cuota_fija": 0.0, "tasa": 0.020},
+      {"lim_inf": 500000.01, "lim_sup": 999999999.0, "cuota_fija": 10000.0, "tasa": 0.028}
+    ]
+  },
+  "QUINTANA_ROO": {
+    "nombre": "Quintana Roo",
+    "rpp_cuota_fija": 3400.0,
+    "arancel_notarial": [
+      {"lim_inf": 0.0, "lim_sup": 500000.0, "cuota_fija": 8000.0, "tasa": 0.012},
+      {"lim_inf": 500000.01, "lim_sup": 2500000.0, "cuota_fija": 14000.0, "tasa": 0.009},
+      {"lim_inf": 2500000.01, "lim_sup": 999999999.0, "cuota_fija": 32000.0, "tasa": 0.006}
+    ],
+    "isai": [
+      {"lim_inf": 0.0, "lim_sup": 700000.0, "cuota_fija": 1500.0, "tasa": 0.018},
+      {"lim_inf": 700000.01, "lim_sup": 999999999.0, "cuota_fija": 14100.0, "tasa": 0.030}
+    ]
+  },
+  "BAJA_CALIFORNIA_SUR": {
+    "nombre": "Baja California Sur",
+    "rpp_cuota_fija": 3100.0,
+    "arancel_notarial": [
+      {"lim_inf": 0.0, "lim_sup": 500000.0, "cuota_fija": 7800.0, "tasa": 0.0115},
+      {"lim_inf": 500000.01, "lim_sup": 2000000.0, "cuota_fija": 13550.0, "tasa": 0.0085},
+      {"lim_inf": 2000000.01, "lim_sup": 999999999.0, "cuota_fija": 26300.0, "tasa": 0.0055}
+    ],
+    "isai": [
+      {"lim_inf": 0.0, "lim_sup": 600000.0, "cuota_fija": 0.0, "tasa": 0.020},
+      {"lim_inf": 600000.01, "lim_sup": 999999999.0, "cuota_fija": 12000.0, "tasa": 0.030}
+    ]
+  },
+  "NUEVO_LEON": {
+    "nombre": "Nuevo León",
+    "rpp_cuota_fija": 3250.0,
+    "arancel_notarial": [
+      {"lim_inf": 0.0, "lim_sup": 500000.0, "cuota_fija": 7200.0, "tasa": 0.010},
+      {"lim_inf": 500000.01, "lim_sup": 2000000.0, "cuota_fija": 12200.0, "tasa": 0.008},
+      {"lim_inf": 2000000.01, "lim_sup": 999999999.0, "cuota_fija": 24200.0, "tasa": 0.005}
+    ],
+    "isai": [
+      {"lim_inf": 0.0, "lim_sup": 1000000.0, "cuota_fija": 0.0, "tasa": 0.030},
+      {"lim_inf": 1000000.01, "lim_sup": 999999999.0, "cuota_fija": 30000.0, "tasa": 0.030}
+    ]
+  },
+  "PUEBLA": {
+    "nombre": "Puebla",
+    "rpp_cuota_fija": 2750.0,
+    "arancel_notarial": [
+      {"lim_inf": 0.0, "lim_sup": 400000.0, "cuota_fija": 6200.0, "tasa": 0.0105},
+      {"lim_inf": 400000.01, "lim_sup": 1700000.0, "cuota_fija": 10400.0, "tasa": 0.008},
+      {"lim_inf": 1700000.01, "lim_sup": 999999999.0, "cuota_fija": 20800.0, "tasa": 0.005}
+    ],
+    "isai": [
+      {"lim_inf": 0.0, "lim_sup": 500000.0, "cuota_fija": 0.0, "tasa": 0.020},
+      {"lim_inf": 500000.01, "lim_sup": 999999999.0, "cuota_fija": 10000.0, "tasa": 0.020}
+    ]
+  },
+  "GUANAJUATO": {
+    "nombre": "Guanajuato",
+    "rpp_cuota_fija": 2850.0,
+    "arancel_notarial": [
+      {"lim_inf": 0.0, "lim_sup": 500000.0, "cuota_fija": 7100.0, "tasa": 0.011},
+      {"lim_inf": 500000.01, "lim_sup": 2000000.0, "cuota_fija": 12600.0, "tasa": 0.008},
+      {"lim_inf": 2000000.01, "lim_sup": 999999999.0, "cuota_fija": 24600.0, "tasa": 0.005}
+    ],
+    "isai": [
+      {"lim_inf": 0.0, "lim_sup": 700000.0, "cuota_fija": 700.0, "tasa": 0.005},
+      {"lim_inf": 700000.01, "lim_sup": 999999999.0, "cuota_fija": 4200.0, "tasa": 0.015}
+    ]
+  },
+  "YUCATAN": {
+    "nombre": "Yucatán",
+    "rpp_cuota_fija": 3000.0,
+    "arancel_notarial": [
+      {"lim_inf": 0.0, "lim_sup": 450000.0, "cuota_fija": 6900.0, "tasa": 0.012},
+      {"lim_inf": 450000.01, "lim_sup": 1800000.0, "cuota_fija": 12300.0, "tasa": 0.0085},
+      {"lim_inf": 1800000.01, "lim_sup": 999999999.0, "cuota_fija": 23775.0, "tasa": 0.0055}
+    ],
+    "isai": [
+      {"lim_inf": 0.0, "lim_sup": 600000.0, "cuota_fija": 1200.0, "tasa": 0.020},
+      {"lim_inf": 600000.01, "lim_sup": 999999999.0, "cuota_fija": 13200.0, "tasa": 0.028}
+    ]
+  },
+  "VERACRUZ": {
+    "nombre": "Veracruz",
+    "rpp_cuota_fija": 2900.0,
+    "arancel_notarial": [
+      {"lim_inf": 0.0, "lim_sup": 400000.0, "cuota_fija": 6400.0, "tasa": 0.011},
+      {"lim_inf": 400000.01, "lim_sup": 1600000.0, "cuota_fija": 10800.0, "tasa": 0.008},
+      {"lim_inf": 1600000.01, "lim_sup": 999999999.0, "cuota_fija": 20400.0, "tasa": 0.005}
+    ],
+    "isai": [
+      {"lim_inf": 0.0, "lim_sup": 500000.0, "cuota_fija": 0.0, "tasa": 0.020},
+      {"lim_inf": 500000.01, "lim_sup": 999999999.0, "cuota_fija": 10000.0, "tasa": 0.020}
+    ]
+  },
+  "TIJUANA": {
+    "nombre": "Tijuana",
+    "rpp_cuota_fija": 4850.0,
+    "arancel_notarial": [
+      { "lim_inf": 0.0, "lim_sup": 500000.0, "cuota_fija": 3500.0, "tasa": 0.015 },
+      { "lim_inf": 500000.01, "lim_sup": 2000000.0, "cuota_fija": 11000.0, "tasa": 0.012 },
+      { "lim_inf": 2000000.01, "lim_sup": 999999999.0, "cuota_fija": 29000.0, "tasa": 0.008 }
+    ],
+    "isai": [
+      { "lim_inf": 0.0, "lim_sup": 829486.11, "cuota_fija": 0.0, "tasa": 0.015 },
+      { "lim_inf": 829486.12, "lim_sup": 1658972.21, "cuota_fija": 14515.94, "tasa": 0.01853 },
+      { "lim_inf": 1658972.22, "lim_sup": 2488457.14, "cuota_fija": 33178.79, "tasa": 0.02206 },
+      { "lim_inf": 2488457.15, "lim_sup": 3317943.25, "cuota_fija": 55989.72, "tasa": 0.02559 },
+      { "lim_inf": 3317943.26, "lim_sup": 4147428.18, "cuota_fija": 82947.55, "tasa": 0.02912 },
+      { "lim_inf": 4147428.19, "lim_sup": 4976914.29, "cuota_fija": 114053.47, "tasa": 0.03265 },
+      { "lim_inf": 4976914.30, "lim_sup": 5806399.22, "cuota_fija": 149306.30, "tasa": 0.03318 },
+      { "lim_inf": 5806399.23, "lim_sup": 6635885.33, "cuota_fija": 188707.21, "tasa": 0.03971 },
+      { "lim_inf": 6635885.34, "lim_sup": 7465372.60, "cuota_fija": 232255.03, "tasa": 0.04324 },
+      { "lim_inf": 7465372.61, "lim_sup": 999999999.0, "cuota_fija": 279950.93, "tasa": 0.04677 }
+    ]
+  },
+  "QUERETARO": {
+    "nombre": "Querétaro",
+    "rpp_cuota_fija": 3100.0,
+    "arancel_notarial": [
+      { "lim_inf": 0.0, "lim_sup": 111520.00, "cuota_fija": 15277.74, "tasa": 0.0 },
+      { "lim_inf": 111520.01, "lim_sup": 446080.00, "cuota_fija": 15277.74, "tasa": 0.015 },
+      { "lim_inf": 446080.01, "lim_sup": 1115200.00, "cuota_fija": 20296.14, "tasa": 0.010 },
+      { "lim_inf": 1115200.01, "lim_sup": 2230400.00, "cuota_fija": 26987.34, "tasa": 0.008 },
+      { "lim_inf": 2230400.01, "lim_sup": 11152000.00, "cuota_fija": 35908.94, "tasa": 0.005 },
+      { "lim_inf": 11152000.01, "lim_sup": 22304000.00, "cuota_fija": 80516.94, "tasa": 0.002 },
+      { "lim_inf": 22304000.01, "lim_sup": 999999999.0, "cuota_fija": 102820.94, "tasa": 0.001 }
+    ],
+    "isai": [
+      { "lim_inf": 0.0, "lim_sup": 92000.00, "cuota_fija": 1628.55, "tasa": 0.028352 },
+      { "lim_inf": 92000.01, "lim_sup": 226891.12, "cuota_fija": 4237.02, "tasa": 0.050310 },
+      { "lim_inf": 226891.13, "lim_sup": 559560.66, "cuota_fija": 11023.49, "tasa": 0.053075 },
+      { "lim_inf": 559560.67, "lim_sup": 1379992.89, "cuota_fija": 28679.95, "tasa": 0.055991 },
+      { "lim_inf": 1379992.90, "lim_sup": 3403349.28, "cuota_fija": 74616.95, "tasa": 0.059067 },
+      { "lim_inf": 3403349.29, "lim_sup": 8393366.68, "cuota_fija": 194131.76, "tasa": 0.062313 },
+      { "lim_inf": 8393366.69, "lim_sup": 20699786.70, "cuota_fija": 505074.80, "tasa": 0.065736 },
+      { "lim_inf": 20699786.71, "lim_sup": 999999999.0, "cuota_fija": 1314058.79, "tasa": 0.0685411 }
+    ],
+    "rpp_traslativo": [
+      { "lim_inf": 0.0, "lim_sup": 999999999.0, "cuota_fija": 351.91, "tasa": 0.0075 }
+    ],
+    "rpp_garantia": [
+      { "lim_inf": 0.0, "lim_sup": 999999999.0, "cuota_fija": 351.91, "tasa": 0.003125 }
+    ],
+    "rpp_cancelacion": [
+      { "lim_inf": 0.0, "lim_sup": 999999999.0, "cuota_fija": 469.24, "tasa": 0.0 }
+    ]
+  }
+}
